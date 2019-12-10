@@ -20,6 +20,7 @@ def sort_array_asc(a)
       }
     end
   }
+  r
 end
 
 def sort_array_desc
