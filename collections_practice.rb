@@ -59,7 +59,7 @@ def sort_array_char_count
       # compare to nums in r and see where it fits (< or >)
       r.each_with_index{ |rword, idx|
         if word.length < rword.length
-          r.unshift(num)
+          r.unshift(word)
           break
         elsif idx == r.length - 1
           r.push(word)
