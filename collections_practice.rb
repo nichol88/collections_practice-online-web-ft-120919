@@ -53,10 +53,9 @@ def sort_array_char_count
   r = []
   i = 0
   a.each{ |word|
-    if r.length == 0
-      r.push(num)
+    if r.empty? # initial add, if array is empty
+      r.push(word)
     else
-      # compare to nums in r and see where it fits (< or >)
       r.each_with_index{ |rword, idx|
         if word.length < rword.length
           r.unshift(word)
