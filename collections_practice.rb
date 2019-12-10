@@ -97,6 +97,11 @@ def sum_array(a)
   }
 end
 
-def add_s
-
+def add_s(a)
+  # add s to end of all but 2nd element
+  a.each_with_index.collect{|e, i| 
+    if i != 1
+      e << "s"
+    end
+  }
 end
