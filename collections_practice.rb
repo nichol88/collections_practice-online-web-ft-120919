@@ -80,7 +80,7 @@ def reverse_array(a)
 end
 
 def kesha_maker(a)
-  a.each{ |e|
+  a.map{ |e|
     e.tr("#{e[2]}",'$')
   }
 end
