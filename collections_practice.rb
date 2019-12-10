@@ -86,8 +86,8 @@ def kesha_maker(a)
 end
 
 def find_a(a)
-  a.map { |e|
-    
+  a.select { |e|
+    e.start_with?("a")
   }
 end
 
