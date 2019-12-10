@@ -71,8 +71,10 @@ def sort_array_char_count(a)
   r
 end
 
-def swap_elements
-
+def swap_elements(a)
+  two = a[1]
+  three = a[2]
+  a.insert(2,a.delete_at(1))
 end
 
 def reverse_array
