@@ -86,7 +86,7 @@ def kesha_maker(a)
 end
 
 def find_a(a)
-  a.map { |e|  
+  a.map { |e|
     
   }
 end
