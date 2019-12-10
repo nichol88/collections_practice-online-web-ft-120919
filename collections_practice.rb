@@ -52,13 +52,13 @@ end
 def sort_array_char_count
   r = []
   i = 0
-  a.each{ |num|
+  a.each{ |word|
     if r.length == 0
       r.push(num)
     else
       # compare to nums in r and see where it fits (< or >)
-      r.each_with_index{ |rnum, idx|
-        if num.length < rnum.length
+      r.each_with_index{ |rword, idx|
+        if word.length < rword.length
           r.unshift(num)
           break
         elsif idx == r.length - 1
@@ -66,7 +66,6 @@ def sort_array_char_count
           break
         else
         end
-
       }
     end
   }
