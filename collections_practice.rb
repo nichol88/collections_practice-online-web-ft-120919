@@ -39,6 +39,7 @@ def sort_array_desc(a)
           r.unshift(num)
           break
         else
+          r.push(num)
         end
 
       }
