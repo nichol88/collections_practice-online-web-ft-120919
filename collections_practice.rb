@@ -11,6 +11,12 @@ def sort_array_asc(a)
         if num < rnum
           r.unshift(num)
           break
+        elsif idx == r.length - 1
+          r.push(num)
+          break
+        else
+        end
+          
       }
     end
   }
