@@ -1,6 +1,19 @@
 
 def sort_array_asc(a)
-
+  r = []
+  i = 0
+  a.each{ |num|
+    if r.length == 0
+      r.push(num)
+    else
+      # compare to nums in r and see where it fits (< or >)
+      r.each_with_index{ |rnum, idx|
+        if num < rnum
+          r.unshift(num)
+          break
+      }
+    end
+  }
 end
 
 def sort_array_desc
