@@ -81,7 +81,7 @@ end
 
 def kesha_maker(a)
   a.each{ |e|
-    e[2].replace('$')
+    e.tr(e[2],'$')
   }
 end
 
