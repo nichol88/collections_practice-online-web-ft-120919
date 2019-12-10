@@ -36,11 +36,10 @@ def sort_array_desc(a)
           r.unshift(num)
           break
         elsif idx == r.length - 1
-          r.unshift(num)
-          break
-        else
           r.push(num)
           break
+        else
+          
         end
 
       }
