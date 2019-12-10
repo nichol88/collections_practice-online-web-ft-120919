@@ -39,7 +39,7 @@ def sort_array_desc(a)
           r.push(num)
           break
         else
-          
+
         end
 
       }
