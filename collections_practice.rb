@@ -62,7 +62,7 @@ def sort_array_char_count
           r.unshift(num)
           break
         elsif idx == r.length - 1
-          r.push(num)
+          r.push(word)
           break
         else
         end
