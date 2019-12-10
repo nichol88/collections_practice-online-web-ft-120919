@@ -23,7 +23,7 @@ def sort_array_asc(a)
   r
 end
 
-def sort_array_desc
+def sort_array_desc(a)
   r = []
   i = 0
   a.each{ |num|
@@ -44,7 +44,7 @@ def sort_array_desc
       }
     end
   }
-  puts r
+  
   r
 end
 
