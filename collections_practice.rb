@@ -32,8 +32,8 @@ def sort_array_desc
     else
       # compare to nums in r and see where it fits (< or >)
       r.each_with_index{ |rnum, idx|
-        if num > rnum
-          r.unshift(num)
+        if num < rnum
+          r.push(num)
           break
         elsif idx == r.length - 1
           r.push(num)
