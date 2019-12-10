@@ -36,7 +36,7 @@ def sort_array_desc
           r.push(num)
           break
         elsif idx == r.length - 1
-          r.push(num)
+          r.unshift(num)
           break
         else
         end
