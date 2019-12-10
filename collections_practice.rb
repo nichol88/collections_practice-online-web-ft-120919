@@ -49,7 +49,7 @@ def sort_array_desc(a)
   r
 end
 
-def sort_array_char_count
+def sort_array_char_count(a)
   r = []
   i = 0
   a.each{ |word|
