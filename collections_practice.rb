@@ -79,8 +79,10 @@ def reverse_array(a)
   a.reverse
 end
 
-def kesha_maker
-
+def kesha_maker(a)
+  a.each{ |e|
+    e[2].replace('$')
+  }
 end
 
 def find_a
