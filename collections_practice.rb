@@ -45,7 +45,7 @@ def sort_array_desc(a)
       }
     end
   }
-  
+
   r
 end
 
