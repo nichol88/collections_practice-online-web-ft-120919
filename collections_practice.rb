@@ -75,7 +75,7 @@ def swap_elements(a)
   a.insert(2,a.delete_at(1))
 end
 
-def reverse_array
+def reverse_array(a)
   a.reverse
 end
 
