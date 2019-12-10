@@ -91,8 +91,10 @@ def find_a(a)
   }
 end
 
-def sum_array
-
+def sum_array(a)
+  a.inject (0) { |memo, e| 
+    memo + e
+  }
 end
 
 def add_s
