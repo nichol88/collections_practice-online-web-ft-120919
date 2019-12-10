@@ -33,7 +33,7 @@ def sort_array_desc(a)
       # compare to nums in r and see where it fits (< or >)
       r.each_with_index{ |rnum, idx|
         if num > rnum
-          r.unshift(num)
+          r.insert(num,idx)
           break
         elsif idx == r.length - 1
           r.push(num)
