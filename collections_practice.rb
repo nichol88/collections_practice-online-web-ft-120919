@@ -102,6 +102,8 @@ def add_s(a)
   a.each_with_index.collect{|e, i|
     if i != 1
       e << "s"
+    else
+      e
     end
   }
 end
