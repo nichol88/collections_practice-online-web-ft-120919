@@ -85,8 +85,10 @@ def kesha_maker(a)
   }
 end
 
-def find_a
-  
+def find_a(a)
+  a.map { |e|  
+    
+  }
 end
 
 def sum_array
