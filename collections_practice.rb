@@ -92,14 +92,14 @@ def find_a(a)
 end
 
 def sum_array(a)
-  a.inject (0) { |memo, e| 
+  a.inject (0) { |memo, e|
     memo + e
   }
 end
 
 def add_s(a)
   # add s to end of all but 2nd element
-  a.each_with_index.collect{|e, i| 
+  a.each_with_index.collect{|e, i|
     if i != 1
       e << "s"
     end
